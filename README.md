@@ -1,6 +1,6 @@
 # **QuartzNet Model**
 
-The QuartzNet is a better variant of Jasper from Nividia with a key difference that it uses time-channel separable 1D convolutions. This allows it to dramatically reduce the number of weights while keeping similar accuracy.
+The QuartzNet is a better variant of Jasper from Nividia with a key difference that it uses time-channel separable 1D convolutions. This allows it to dramatically reduce the number of weights while keeping similar accuracy it has 1.2M parameters so it fits well the low compuatuional power 
 
 A Jasper/QuartzNet models look like this (QuartzNet model is pictured):
 
