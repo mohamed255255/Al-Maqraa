@@ -32,7 +32,7 @@ pip install Cython packaging
 pip install nemo_toolkit['asr']
 ```
 ## **Remarks**
-- This model needs alot of trainingset because it overftis , so 90K audio was used for training
+- This model needs alot of training set because it overftis for small data set, so 90K audio was used for training
 it might be less than that if the data quality and preprocessing is better
 - batch size = 32
 - optimizer  = novgard
