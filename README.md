@@ -10,7 +10,7 @@ A Jasper/QuartzNet models look like this (QuartzNet model is pictured):
 
 - Python 3.10 or above
 - PyTorch 1.13.1 or above
-- NVIDIA GPU (if you intend to do model training)
+- NVIDIA GPU (if you intend to train from scratch)
 
 ## **Use Anaconda to Avoid Package Conflicts**
 
