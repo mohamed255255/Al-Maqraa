@@ -1,6 +1,6 @@
 # **QuartzNet Model**
 
-The QuartzNet is a better variant of Jasper with a key difference that it uses time-channel separable 1D convolutions. This allows it to dramatically reduce the number of weights while keeping similar accuracy.
+The QuartzNet is a better variant of Jasper from Nividia with a key difference that it uses time-channel separable 1D convolutions. This allows it to dramatically reduce the number of weights while keeping similar accuracy.
 
 A Jasper/QuartzNet models look like this (QuartzNet model is pictured):
 
@@ -31,6 +31,13 @@ pip install Cython packaging
 ```sh
 pip install nemo_toolkit['asr']
 ```
+## **Remarks**
+- This model needs alot of trainingset because it overftis , so 90K audio was used for training
+it might be less than that if the data quality and preprocessing is better
+- batch size = 32
+- optimizer  = novgard
+- lr = 0.001
+
 ## **Training loss**
 ![trainingLoss](./trainingLoss.png)
 
