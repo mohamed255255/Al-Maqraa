@@ -47,6 +47,5 @@ pip install nemo_toolkit['asr']
 ## **WER**
 ![WER](./WER.png)
 
-
-## **WER**
+## **Inference**
 ![Results](./Results.png)
