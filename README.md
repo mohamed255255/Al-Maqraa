@@ -6,7 +6,7 @@ A Jasper/QuartzNet models look like this (QuartzNet model is pictured):
 
 ![QuartzNet Model](./quartez.png)
 
-## **Requirements**
+## **Requirements (make sure you follow the exact order)**
 
 - Python 3.10 or above
 - PyTorch 1.13.1 or above
