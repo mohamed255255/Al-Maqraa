@@ -37,6 +37,7 @@ pip install nemo_toolkit['asr']
 - batch size = 32
 - optimizer  = novgard
 - lr = 0.001
+- epochs = 60
 
 ## **Training loss**
 ![trainingLoss](./trainingLoss.png)
