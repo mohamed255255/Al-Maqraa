@@ -4,7 +4,7 @@ The QuartzNet is a better variant of Jasper with a key difference that it uses t
 
 A Jasper/QuartzNet models look like this (QuartzNet model is pictured):
 
-![QuartzNet Model](./quartez)
+![QuartzNet Model](./quartez.png)
 
 ## **Requirements**
 
