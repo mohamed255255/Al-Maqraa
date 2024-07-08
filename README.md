@@ -17,22 +17,25 @@ A Jasper/QuartzNet models look like this (QuartzNet model is pictured):
 ```sh
 conda create --name condaEnv python==3.10.12
 conda activate condaEnv
-
+```
+## **Install pytorch**
 
 ```sh
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
-
+```
+## **Install Cython**
 ```sh
-
 pip install Cython packaging
-
+```
+## **Install nemo asr library**
 ```sh
-
 pip install nemo_toolkit['asr']
-
-
+```
+## **Training loss**
 ![trainingLoss](./trainingLoss.png)
 
+## **Validation loss**
 ![ValidationLoss](./ValidationLoss.png)
 
+## **WER**
 ![WER](./WER.png)
