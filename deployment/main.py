@@ -25,7 +25,7 @@ with open(config_path, 'r', encoding='utf-8') as f:
 model = nemo_asr.models.EncDecCTCModel(cfg=DictConfig(params['model']))
 
 
-checkpoint_path = './checkpoint/best-checkpoint-epoch=131-val_loss=39.20.ckpt'
+checkpoint_path = './checkpoint/best_model-epoch=136-wer=0.47.ckpt'
 checkpoint = torch.load(checkpoint_path, map_location=torch.device('cpu'))
 model.load_state_dict(checkpoint['state_dict'])
 model.eval()
