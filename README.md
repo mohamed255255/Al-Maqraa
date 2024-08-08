@@ -34,6 +34,7 @@ pip install nemo_toolkit['asr']
 ## **Remarks**
 - This model needs alot of training set because it overftis for small data set, so 90K audio was used for training
 , it might be less than that if the data quality and preprocessing is better
+- Accuracy : 53%
 - epochs = 60
 - batch size = 32
 - optimizer  = novgard
